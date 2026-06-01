@@ -33,7 +33,6 @@ a {
   text-decoration: underline; /* Fondamentale: mai basarsi solo sul colore */
   text-decoration-thickness: 2px;
   text-underline-offset: 3px;
-  font-family: 'OpenDyslexic', 'Comic Sans MS', sans-serif; /* Font facilitati per dislessia */
   letter-spacing: 0.05em; /* Maggiore spaziatura tra lettere */
   word-spacing: 0.1em; /* Maggiore spaziatura tra parole */
   transition: all 0.2s ease;
