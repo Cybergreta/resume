@@ -29,37 +29,38 @@ footer{
 
 /* Stile base per i link accessibili */
 a {
-  color: #005A9C; /* Blu ad alto contrasto, ben visibile ai daltonici */
-  text-decoration: underline; /* Fondamentale: mai basarsi solo sul colore */
-  text-decoration-thickness: 2px;
-  text-underline-offset: 3px;
-  letter-spacing: 0.05em; /* Maggiore spaziatura tra lettere */
-  word-spacing: 0.1em; /* Maggiore spaziatura tra parole */
-  transition: all 0.2s ease;
-  padding: 2px 4px; /* Area di clic più ampia */
-  border: 2px solid transparent; /* Riserva lo spazio per il bordo */
+            color: #005A9C; /* Blu ad alto contrasto, ben visibile ai daltonici */
+            text-decoration: underline; /* Fondamentale: mai basarsi solo sul colore */
+            text-decoration-thickness: 2px;
+            text-underline-offset: 3px;
+            letter-spacing: 0.05em; /* Maggiore spaziatura tra lettere */
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            word-spacing: 0.1em; /* Maggiore spaziatura tra parole */
+            transition: all 0.2s ease;
+            padding: 2px 4px; /* Area di clic più ampia */
+            border: 2px solid transparent; /* Riserva lo spazio per il bordo */
 }
 
 /* Stato Hover (passaggio del mouse) */
 a:hover {
-  color: #FFFFFF;
-  background-color: #005A9C; /* Inversione di colore per massimo contrasto */
-  border: 2px solid #003366; /* Bordo visibile richiesto */
-  text-decoration: none;
+            color: #FFFFFF;
+            background-color: #005A9C; /* Inversione di colore per massimo contrasto */
+            border: 2px solid #003366; /* Bordo visibile richiesto */
+            text-decoration: none;
 }
 
 /* Stato Focus (navigazione con tastiera) */
 a:focus {
-  outline: 3px solid #FFCC00; /* Outline giallo acceso, visibile a tutti */
-  outline-offset: 2px;
-  background-color: #005A9C;
-  color: #FFFFFF;
+            outline: 3px solid #FFCC00; /* Outline giallo acceso, visibile a tutti */
+            outline-offset: 2px;
+            background-color: #005A9C;
+            color: #FFFFFF;
 }
 
 /* Stato Visitato (evita il viola standard, spesso confondibile) */
 a:visited {
-  color: #551A8B; 
+            color: #551A8B; 
 }
 a:visited:hover {
-  color: #FFFFFF;
+            color: #FFFFFF;
 }
