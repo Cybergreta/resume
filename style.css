@@ -1,66 +1,70 @@
 body {
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            margin: 1ch auto;
-            font-size: 14pt;
-            line-height: 1.6;
-            letter-spacing: 0.12em;
-            word-spacing: 0.16em;
-            color: #424464;
-            background-color: antiquewhite;
-            max-width: 70ch;
-            margin-bottom: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1ch auto;
+    font-size: 14pt;
+    line-height: 1.6;
+    letter-spacing: 0.12em;
+    word-spacing: 0.16em;
+    color: #424464;
+    background-color: antiquewhite;
+    max-width: 70ch;
+    margin-bottom: 1em;
 }
 
-h2{
-            border-left: 5px solid #1a1a24;
-            padding-left: 0.5em;
+h3 {
+    border-left: 5px solid #1a1a24;
+    padding-left: 0.5em;
 }
 
-header{
-            border-bottom: 2px solid #1a1a24;
-            padding-bottom: 0.5em;
-}
+/* header{
+    border-bottom: 2px solid #1a1a24;
+    padding-bottom: 0.5em;
+} */
 
-footer{
-            border-top: 2px solid #1a1a24;
-            padding-top: 0.5em;
-            margin-top: 2em;
+/* footer{
+    border-top: 2px solid #1a1a24;
+    padding-top: 0.5em;
+    margin-top: 2em;
+} */
+
+section {
+    border-top: 2px solid #1a1a24;
 }
 
 /* Stile base per i link accessibili */
 a {
-            color: #005A9C; /* Blu ad alto contrasto, ben visibile ai daltonici */
-            text-decoration: underline; /* Fondamentale: mai basarsi solo sul colore */
-            text-decoration-thickness: 2px;
-            text-underline-offset: 3px;
-            letter-spacing: 0.05em; /* Maggiore spaziatura tra lettere */
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            word-spacing: 0.1em; /* Maggiore spaziatura tra parole */
-            transition: all 0.2s ease;
-            padding: 2px 4px; /* Area di clic più ampia */
-            border: 2px solid transparent; /* Riserva lo spazio per il bordo */
+    color: #005A9C; /* Blu ad alto contrasto, ben visibile ai daltonici */
+    text-decoration: underline; /* Fondamentale: mai basarsi solo sul colore */
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+    letter-spacing: 0.05em; /* Maggiore spaziatura tra lettere */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: 0.1em; /* Maggiore spaziatura tra parole */
+    transition: all 0.2s ease;
+    padding: 2px 4px; /* Area di clic più ampia */
+    border: 2px solid transparent; /* Riserva lo spazio per il bordo */
 }
 
 /* Stato Hover (passaggio del mouse) */
 a:hover {
-            color: #FFFFFF;
-            background-color: #005A9C; /* Inversione di colore per massimo contrasto */
-            border: 2px solid #003366; /* Bordo visibile richiesto */
-            text-decoration: none;
+    color: #FFFFFF;
+    background-color: #005A9C; /* Inversione di colore per massimo contrasto */
+    border: 2px solid #003366; /* Bordo visibile richiesto */
+    text-decoration: none;
 }
 
 /* Stato Focus (navigazione con tastiera) */
 a:focus {
-            outline: 3px solid #FFCC00; /* Outline giallo acceso, visibile a tutti */
-            outline-offset: 2px;
-            background-color: #005A9C;
-            color: #FFFFFF;
+    outline: 3px solid #FFCC00; /* Outline giallo acceso, visibile a tutti */
+    outline-offset: 2px;
+    background-color: #005A9C;
+    color: #FFFFFF;
 }
 
 /* Stato Visitato (evita il viola standard, spesso confondibile) */
 a:visited {
-            color: #551A8B; 
+    color: #551A8B; 
 }
 a:visited:hover {
-            color: #FFFFFF;
+    color: #FFFFFF;
 }
